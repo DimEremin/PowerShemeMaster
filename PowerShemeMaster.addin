@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command PowerShemeMaster</Text>
+    <Description>Some description for PowerShemeMaster</Description>
+    <Assembly>PowerShemeMaster.dll</Assembly>
+    <FullClassName>PowerShemeMaster.Command</FullClassName>
+    <ClientId>cc4053a6-02ee-49a4-9263-6bbdb97bf793</ClientId>
+    <VendorId>Dim_Eremin</VendorId>
+    <VendorDescription>Dim_Eremin</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application PowerShemeMaster</Name>
+    <Assembly>PowerShemeMaster.dll</Assembly>
+    <FullClassName>PowerShemeMaster.App</FullClassName>
+    <ClientId>34bb462a-9e34-4f1d-abba-1ece601ce524</ClientId>
+    <VendorId>Dim_Eremin</VendorId>
+    <VendorDescription>The Dim_Eremin</VendorDescription>
+  </AddIn>
+</RevitAddIns>
